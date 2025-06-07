@@ -2,44 +2,43 @@
     "id": "foundry-be-compendium",
     "name": "foundry-be-compendium",
     "title": "Foundry BE Compendium",
-    "description": "A set of Burning Empires compendiums that are compatible with StarsTserk Burning Wheel Module",
+    "description": "A set of Burning Empires compendiums that are compatible with StasTserk's Burning Wheel Module",
     "version": "0.1.135",
-    "minimumCoreVersion": "0.5.5",
+    "author": "i-hann",
+    "url": "https://github.com/i-hann/FoundryBECompendium",
+    "manifest": "https://raw.githubusercontent.com/i-hann/FoundryBECompendium/main/module.json",
+    "download": "https://github.com/i-hann/FoundryBECompendium/releases/download/v0.1.135/FoundryBECompendium.zip",
+    "bugs": "https://github.com/i-hann/FoundryBECompendium/issues",
+    "readme": "https://github.com/i-hann/FoundryBECompendium#readme",
+    "minimumCoreVersion": "11",
     "compatibleCoreVersion": "11",
     "compatibility": {
-        "minimum": 9,
-        "verified": "10.291"
+        "minimum": "11",
+        "verified": "11"
     },
+    "systems": [
+        "burningwheel"
+    ],
     "relationships": {
         "systems": [
             {
                 "id": "burningwheel",
                 "type": "system",
-                "manifest": "https://github.com/StasTserk/foundry-burningwheel/blob/master/system.json",
+                "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
                 "compatibility": {
                     "verified": "1.4.2"
                 }
             }
         ]
     },
-    "systems": [
-        "burningwheel"
-    ],
-    "author": "i-hann",
-    "url": "https://github.com/i-hann/FoundryBECompendium",
-    "manifest": "",
-    "download": "",
-    "bugs": "",
-    "readme": "",
     "packs": [
         {
             "name": "be-human-lifepaths",
             "label": "BE Human Lifepaths",
-            "module": "foundry-be-compendium",
             "system": "burningwheel",
             "path": "packs/be-human-lifepaths.db",
             "type": "Item",
-            "entity": "Item"
+            "private": false
         }
     ]
 }
