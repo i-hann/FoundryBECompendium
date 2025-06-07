@@ -3,7 +3,7 @@
     "name": "foundry-be-compendium",
     "title": "Foundry BE Compendium",
     "description": "A set of Burning Empires compendiums that are compatible with StasTserk's Burning Wheel Module",
-    "version": "0.1.135",
+    "version": "v0.1.135",
     "author": "i-hann",
     "url": "https://github.com/i-hann/FoundryBECompendium",
     "manifest": "https://raw.githubusercontent.com/i-hann/FoundryBECompendium/main/module.json",
