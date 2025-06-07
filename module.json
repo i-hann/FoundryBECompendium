@@ -1,0 +1,45 @@
+{
+    "id": "foundry-be-compendium",
+    "name": "foundry-be-compendium",
+    "title": "Foundry BE Compendium",
+    "description": "A set of Burning Empires compendiums that are compatible with StarsTserk Burning Wheel Module",
+    "version": "0.1.135",
+    "minimumCoreVersion": "0.5.5",
+    "compatibleCoreVersion": "11",
+    "compatibility": {
+        "minimum": 9,
+        "verified": "10.291"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "burningwheel",
+                "type": "system",
+                "manifest": "https://github.com/StasTserk/foundry-burningwheel/blob/master/system.json",
+                "compatibility": {
+                    "verified": "1.4.2"
+                }
+            }
+        ]
+    },
+    "systems": [
+        "burningwheel"
+    ],
+    "author": "i-hann",
+    "url": "https://github.com/i-hann/FoundryBECompendium",
+    "manifest": "",
+    "download": "",
+    "bugs": "",
+    "readme": "",
+    "packs": [
+        {
+            "name": "be-human-lifepaths",
+            "label": "BE Human Lifepaths",
+            "module": "foundry-be-compendium",
+            "system": "burningwheel",
+            "path": "packs/be-human-lifepaths.db",
+            "type": "Item",
+            "entity": "Item"
+        }
+    ]
+}
