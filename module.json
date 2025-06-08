@@ -3,11 +3,11 @@
     "name": "foundry-be-compendium",
     "title": "Foundry BE Compendium",
     "description": "A set of Burning Empires compendiums that are compatible with StasTserk's Burning Wheel Module",
-    "version": "v0.1.404",
+    "version": "v0.1.405",
     "author": "i-hann",
     "url": "https://github.com/i-hann/FoundryBECompendium",
     "manifest": "https://raw.githubusercontent.com/i-hann/FoundryBECompendium/main/module.json",
-    "download": "https://github.com/i-hann/FoundryBECompendium/releases/download/v0.1.404/FoundryBECompendium.zip",
+    "download": "https://github.com/i-hann/FoundryBECompendium/releases/download/v0.1.405/FoundryBECompendium.zip",
     "bugs": "https://github.com/i-hann/FoundryBECompendium/issues",
     "readme": "https://github.com/i-hann/FoundryBECompendium#readme",
     "minimumCoreVersion": "11",
@@ -40,6 +40,15 @@
             "path": "packs/be-human-lifepaths.db",
             "type": "Actor",
             "entity": "Actor"
+        },
+        {
+            "name": "be-traits",
+            "label": "BE Traits",
+            "module": "foundry-be-compendium",
+            "system": "burningwheel",
+            "path": "packs/be-traits.db",
+            "type": "Item",
+            "entity": "Item"
         }
     ]
 }
