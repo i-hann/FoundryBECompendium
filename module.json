@@ -3,11 +3,11 @@
     "name": "foundry-be-compendium",
     "title": "Foundry BE Compendium",
     "description": "A set of Burning Empires compendiums that are compatible with StasTserk's Burning Wheel Module",
-    "version": "v0.1.412",
+    "version": "v0.1.413",
     "author": "i-hann",
     "url": "https://github.com/i-hann/FoundryBECompendium",
     "manifest": "https://raw.githubusercontent.com/i-hann/FoundryBECompendium/main/module.json",
-    "download": "https://github.com/i-hann/FoundryBECompendium/releases/download/v0.1.412/FoundryBECompendium.zip",
+    "download": "https://github.com/i-hann/FoundryBECompendium/releases/download/v0.1.413/FoundryBECompendium.zip",
     "bugs": "https://github.com/i-hann/FoundryBECompendium/issues",
     "readme": "https://github.com/i-hann/FoundryBECompendium#readme",
     "minimumCoreVersion": "11",
@@ -47,6 +47,15 @@
             "module": "foundry-be-compendium",
             "system": "burningwheel",
             "path": "packs/be-traits.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "be-skills",
+            "label": "BE Skills",
+            "module": "foundry-be-compendium",
+            "system": "burningwheel",
+            "path": "packs/be-skills.db",
             "type": "Item",
             "entity": "Item"
         }
